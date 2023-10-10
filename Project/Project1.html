@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en">
+<head>    <meta charset="UTF-8">
+    <title>Title</title>    <style>
+        * {            padding: 0;
+            margin: 0;        }
+        .container {
+            max-width: 1440px;            margin: 0 auto;
+            border: 1px solid black;        }
+        .header {
+            padding-top: 40px;            height: 755px;
+            background: rgb(255,255,255);            background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(233,245,255,1) 30%, rgba(19,145,206,1) 100%);
+        }
+        .logoContainer {
+            display: flex;            align-items: center;
+        }
+        .nav {            max-width: 1120px;
+            margin: 0 auto;            display: flex;
+            justify-content: space-between;            align-items: center;
+        }
+        .navLinks {            width: 500px;
+            display: flex;            justify-content: space-between;
+            align-items: center;            list-style-type: none;
+            margin-right: 20px ;        }
+        .navMenu {
+            display: flex;        }
+        .link a {
+            text-decoration: none;            color: #25468A;
+        }
+        .textTitle {            font-size: 1.5rem;
+            font-weight: bold;
+            font-family: "Roboto Thin",serif;        }
+
+        .btn {            padding: 9px 23px;
+            background-color: #FFF;            border-radius: 24px;
+            border: none;
+        }
+    </style></head>
+<body>    <div class="container">
+        <header class="header">            <nav class="nav">
+                <div class="logoContainer">                    <img src="logo.png" alt="logo">
+                    <p class="textTitle">HandBrake</p>                </div>
+                <div class="navMenu">
+                    <ul class="navLinks">                        <li class="link"><a href="#">Docs</a></li>
+                        <li class="link"><a href="#">GitHub</a></li>                        <li class="link"><a href="#">News</a></li>
+                        <li class="link"><a href="#">Community & Support</a></li>                    </ul>
+                    <button class="btn">Downloads</button>
+                </div>            </nav>
+        </header>    </div>
+</body></html>
